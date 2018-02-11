@@ -1,0 +1,104 @@
+# Site settings
+baseURL = "https://orangumovie.com/"
+languageCode = "en-US"
+title = "Orang-U: An Ape Goes To College &mdash; orangumovie.com"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Orang-U: An Ape Goes To College"
+  description = "A series of orangutan-based movies."
+  shareImage = "images/social.jpg"
+  twitterHandle = "orangumovie"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2015-2018 <a href='http://roguetrader.us'>Rogue Trader Motion Picture Company</a>"
+
+  # Section - Content
+  [params.content]
+    name = "Rogue Trader Motion Picture Company presents"
+    tagline = "Orang-U Movie"
+    bio = "&ldquo;This is where we belong. This is happening again.&rdquo; &mdash; filming on [Orang-U 2: Monkey Business](#) starts soon. We're actually filming two movies back to back this time, and we'll be releasing them in early 2019 and summer 2019. We are writing parts of the story as we film to adapt to our actors. We have some surprises in store for this second part of the story, and we're bringing back many of our original cast. Remember: we live in a dream. If you haven't yet, you can [buy](#) or [watch](#) the first movie. We also have a book in [dead tree](#), [DRM-free ePub](#), [DRM-free PDF](#) and [DRM-free (we think) Kindle format](#)."
+    
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = false
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = true
+      mute = true
+      #file = "videos/background.mp4"
+      youtubeId = "F15mA-mswFA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://orangumovie.wordpress.com/"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "info@orangumovie.com"
+
+      [[params.links.list1.link]]
+        text = "Newsletter"
+        url = "http://eepurl.com/cU-J3v"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/orangumovie"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://facebook.com/orangumovie"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://instagram.com/orangumovie"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "More"
+
+      [[params.links.list3.link]]
+        text = "Casting"
+        url = "http://backstage.com/casting/orang-u-2-monkey-business-180150/"
+
+      [[params.links.list3.link]]
+        text = "Buy things"
+        url = "https://gumroad.com/mattl"
+
+      [[params.links.list3.link]]
+        text = "Remix"
+        url = "https://monkeymovie.org/"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
